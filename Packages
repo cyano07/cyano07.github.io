@@ -1,36 +1,156 @@
-Package: com.clevinkpinterestvalidateversion
-Version: 0.0.1-1+debug
+Package: bag.skyglow.bluetweety
+Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: Slovano Clevink
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: packages/com.clevinkpinterestvalidateversion_0.0.1-1+debug_iphoneos-arm.deb
-Size: 7150
-MD5sum: e799fa390129d0dcba0c5752faa7fe35
-SHA1: 4dbfe94aa1d26f3d80a13054394cae04df663353
-SHA256: f756030ee1feac390b3f2c73c4c2a1c842ff076a24bd8ea98cfb24534775b499
+Maintainer: Requis, bag.xml
+Installed-Size: 948
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./packages/bag.skyglow.bluetweety_1.0_iphoneos-arm.deb
+Size: 111010
+MD5sum: f32c4f1b3f728762ccb997ef62e4656e
+SHA1: 24d850223ca9966304324344d5c33164bc237c1e
+SHA256: baadc0ab0c67762ee605068e111e87776dffa05ea6e8209315b0d7a4fd3faa72
 Section: Tweaks
-Description: Validate the Pinterest version and fix the crash after login
-Author: Slovano Clevink
-Name: Pinterest Validate Version
+Description: Fix the iOS integration with Twitter across the system, as well as the Twitter app.
+Author: Requis, bag.xml
+Depiction: http://cydia.skyglow.es/depictions/bag.skyglow.bluetweety/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.skyglow.bluetweety/BlueTweety-Icon.png
+Name: BlueTweety
 
-Package: ai.akemi.appsyncunified
-Version: 110.0
+Package: bag.xml.tuberepair
+Version: 1.1-Beta-2
 Architecture: iphoneos-arm
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Installed-Size: 700
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.3.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute
-Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
-Provides: appsync, net.angelxwind.appsyncunified
-Filename: ./packages/nodelete-ai.akemi.appsyncunified.deb
-Size: 58440
-MD5sum: 26f898f0b80f3bd842527aa9a9859bb1
-SHA1: f0392e1c1992789ac92c17dc7db3718fca6df899
-SHA256: fa97d20ecaab914c7d07fc17ff2f31c15d34b33a5eebc158cb2c83e8a7ec2abc
+Maintainer: bag.xml, Requis
+Installed-Size: 216
+Depends: mobilesubstrate, preferenceloader
+Filename: ./packages/bag.xml.tuberepair_1.1-Beta-2_iphoneos-arm.deb
+Size: 101918
+MD5sum: 0a0b6a1a538c9aa369ef905fc6d1eb68
+SHA1: 2ccb6f9877e86a38c59b55c97f529beb37ebe866
+SHA256: a0728c4753df3625d847ba79c5128123020698f5c22f1890a2eb1b9da659727e
 Section: Tweaks
-Homepage: https://cydia.akemi.ai/
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
-Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
-Name: AppSync Unified
+Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
+Author: bag.xml, Requis
+Depiction: https://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
+Name: TubeRepair [BETA]
+
+Package: com.skyglow.itunesstorex
+Version: 3.2
+Architecture: iphoneos-arm
+Maintainer: Requis, Bag.xml
+Installed-Size: 312
+Depends: mobilesubstrate, firmware(<==7.9)
+Filename: ./packages/com.skyglow.itunesstorex_3.2_iphoneos-arm.deb
+Size: 108400
+MD5sum: 119e8183a48268f6920cfc3b0a8df212
+SHA1: 6b411c683fba5f6b3278a9aae28d956465bc32ba
+SHA256: 946952cc2bcc33ddd512dc5bbcfc0755c3ccd975cdd7f0a2c4384d9a4589cdcc
+Section: Tweaks
+Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
+Author: Requis, Bag.xml
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.itunesstorex/depictions/index.html
+Icon: file:///Library/Application%20Support/com.skyglow.itunesstorex/iTunesStoreX-Icon.png
+Name: iTunesStoreX
+
+Package: com.skyglow.mapsx
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Requis
+Installed-Size: 304
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./packages/com.skyglow.mapsx_2.0_iphoneos-arm.deb
+Size: 110736
+MD5sum: 8b40111dacc1b363d87a59b05abb9d1b
+SHA1: 4bd1cd04b07e66c3dd5c2654826d0d1c7056c770
+SHA256: e961e45c5d43722ce373206de6cc30ba8e5a1c3fc6ade0831b7e4576bf009c6d
+Section: Tweaks
+Description: This tweak fixes Apple Maps and any MapView in the system (asking Siri for location...) by redirecting various dead URI.
+Author: Requis
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.mapsx/depictions/index.html
+Icon: file:///Library/Application%20Support/com.skyglow.mapsx/MapsX-Icon.png
+Name: MapsX
+
+Package: com.skyglow.weatherx
+Version: 3.3
+Architecture: iphoneos-arm
+Maintainer: Requis
+Depends: mobilesubstrate (>= 0.9.2586), firmware (>= 2.0), firmware (<= 7.9), preferenceloader, com.skyglow.stocksx
+Conflicts: com.ixmoe.1pwn.weatherx
+Filename: ./packages/WeatherX.deb
+Size: 84100
+MD5sum: a6261fcbcbe36290f4aaa25357744d9e
+SHA1: a6e6caabf056d05b8f961165123917e9eff9c846
+SHA256: c7648684aff258bfa831b2e7c317361dad7c300d24505367c622d8b84ef6d67b
+Section: Tweaks
+Description: Fix iOS's weather app from iPhoneOS 2 to iOS 7, the weather widget in the notification center, and the temperature in the iPad clock app!
+Author: Requis
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.weatherx/depictions/index.html
+Name: WeatherX
+
+Package: com.victorlobe.googlefix
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Victor
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./packages/com.victorlobe.googlefix_1.0.2_iphoneos-arm.deb
+Size: 6114
+MD5sum: f68ba5e89b84d96d873ecbe152bc0f1e
+SHA1: d22e4d853f293aa5c4a9afb3ef2652c27db3b7ff
+SHA256: 83282f991a2e4fa918c9f7c3b4a37de1e6871ca09bda43f08bedec5f4e93e457
+Section: Tweaks
+Description: Fixes Google on iOS 6
+Author: Victor
+Name: GoogleFix
+
+Package: com.victorlobe.icloudmailfix
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Victor <victor.lobe@me.com>
+Installed-Size: 1512
+Depends: mobilesubstrate, PreferenceLoader, firmware (>= 6.0)
+Filename: ./packages/com.victorlobe.icloudmailfix_1.0.2_iphoneos-arm.deb
+Size: 481970
+MD5sum: 372bf979c8bce7510dfcd006c2a83e52
+SHA1: 8b6c6f38cc835185b432bb3a9cc4a96329410ba5
+SHA256: bef269cd0cc60e6d30d73a9eadee9354bda3b5607fef764bd7f8271e5bb33851
+Section: Tweaks
+Priority: optional
+Description: Restores full iCloud Mail functionality on iOS 6 and later devices. This tweak fixes the compatibility issue with modern iCloud servers by creating a local proxy that handles the connections. See Settings > iCloud Mail Fix for setup instructions.
+Author: Victor <victor.lobe@me.com>
+Compatibility: iOS 6.0+
+Name: iCloudMailFix
+
+Package: com.victorlobe.pinterestfix
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Victor <contact@victorlobe.me>
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./packages/com.victorlobe.pinterestfix_1.0.1_iphoneos-arm.deb
+Size: 8166
+MD5sum: 46ba52b5a4b08028a3081d2b4f9d786e
+SHA1: 60dd5d593668e4cbc31cdeaedce049b08e991a35
+SHA256: 2ae55b958f8e372def0c878ed0afa259368cb1525d0d7d70ea1be3ec6804987e
+Section: Tweaks
+Description: Fixes Pinterest on iOS 5+ Needs Pinterest version 2.6+
+Author: Victor <contact@victorlobe.me>
+Name: PinterestFix
+
+Package: com.victorlobe.safarioldreddit
+Version: 1.0.0-2+debug
+Architecture: iphoneos-arm
+Maintainer: Victor
+Installed-Size: 44
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./packages/com.victorlobe.safarioldreddit_1.0.0-2+debug_iphoneos-arm.deb
+Size: 4270
+MD5sum: 495665bad718841d9a88ab7f887c3d19
+SHA1: a48372d55a63b56adc1007f5375502c73800def0
+SHA256: 9256541a1774b285c07697d11a2519fdcc13085a9dd79bd57abff9ed74482373
+Section: Tweaks
+Description: Redirects all Reddit URLs to old.reddit.com. Currently works on iOS 6.1 upwards. Later versions will support older iOS Versions since I need to find the SDKs.
+Author: Victor
+Name: SafariOldReddit
+
+
