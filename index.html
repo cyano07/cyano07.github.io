@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Repositório Cydia com tweaks e temas para iOS.">
+  <meta name="theme-color" content="#007aff">
+  <title>my cydia repo</title>
+  <style>
+    :root {
+      --azul: #007aff;
+      --azul-escuro: #0051a8;
+      --fundo: #f2f2f7;
+      --texto: #333;
+      --cinza: #777;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, Helvetica, Arial, sans-serif;
+      background: var(--fundo);
+      color: var(--texto);
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background: linear-gradient(180deg, var(--azul), var(--azul-escuro));
+      color: #fff;
+      padding: 30px 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      font-size: 1em;
+      opacity: 0.9;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section.packages {
+      display: grid;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    article.package {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      max-width: 400px;
+      padding: 15px;
+      text-align: left;
+      transition: transform 0.2s ease;
+    }
+
+    article.package:hover {
+      transform: translateY(-3px);
+    }
+
+    article.package h2 {
+      margin: 0 0 8px;
+      color: var(--azul);
+      font-size: 1.3em;
+    }
+
+    article.package p {
+      margin: 0 0 5px;
+      font-size: 0.95em;
+    }
+
+    a.cydia-link {
+      display: inline-block;
+      margin-top: 8px;
+      background: var(--azul);
+      color: #fff;
+      text-decoration: none;
+      padding: 6px 10px;
+      border-radius: 8px;
+      font-size: 0.9em;
+      transition: background 0.3s;
+    }
+
+    a.cydia-link:hover {
+      background: var(--azul-escuro);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.85em;
+      color: var(--cinza);
+      padding-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cyano's Repo</h1>
+    <p>Things for iOS</p>
+  </header>
+
+  <main>
+    <section class="packages" aria-label="Lista de pacotes disponíveis">
+
+      <article class="package">
+        <h2>Tweak de Exemplo</h2>
+        <p>Personaliza a tela de bloqueio do iOS 6+</p>
+        <p><strong>Versão:</strong> 1.0</p>
+        <a href="cydia://package/com.seurepo.tweakexemplo" class="cydia-link">Abrir no Cydia</a>
+      </article>
+
+      <article class="package">
+        <h2>Tema ClassicUI</h2>
+        <p>Tema inspirado no iOS 7, compatível com WinterBoard.</p>
+        <p><strong>Versão:</strong> 2.3</p>
+        <a href="cydia://package/com.seurepo.classicui" class="cydia-link">Abrir no Cydia</a>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 MeuRepo. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+

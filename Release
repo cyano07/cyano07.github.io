@@ -1,0 +1,9 @@
+Origin: Cyano's Repo
+Label: Cyano's Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm 
+Components: main
+
+Description:  The Cyano's Repo for iOS 6 
